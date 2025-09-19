@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body{
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #ffffff ,rgb(51, 128, 216));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+
+button{
+  cursor: pointer;
+}
