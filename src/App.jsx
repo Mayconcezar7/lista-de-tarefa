@@ -1,13 +1,13 @@
 import RouterApp from "./router/router"
-import { BrowserRouter } from "react-router-dom"
+import {HashRouter } from "react-router-dom"
 
 function App() {
  
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <RouterApp/>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
